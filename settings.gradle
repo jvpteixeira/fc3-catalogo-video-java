@@ -1,1 +1,5 @@
-rootProject.name = 'CatalogoVideo'
+rootProject.name = 'codeflix-catalog-admin'
+include 'domain'
+include 'application'
+include 'infrastructure'
+

@@ -36,3 +36,6 @@ out/
 ### VS Code ###
 .vscode/
 .history/
+
+*.gradle\*
+.gradle/7.4/checksums/checksums.lock
