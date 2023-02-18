@@ -1,2 +1,0 @@
-
-nameDROP TABLE categories;

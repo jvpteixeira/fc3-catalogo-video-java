@@ -1,8 +1,5 @@
-FROM eclipse-temurin:17-jre-alpine
+FROM openjdk:11-alpine
 
-COPY build/libs/*.jar /opt/app/application.jar
-
-RUN addgroup -S spring && adduser -S spring -G spring
-USER spring:spring
-
-CMD java -jar /opt/app/application.jar
+USER gradle
+VOLUME "/home/gradle/.gradle"
+WORKDIR /home/gradle
